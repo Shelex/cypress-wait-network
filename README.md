@@ -111,7 +111,7 @@ This project is licensed under the MIT License.
 [types-path]: ./index.d.ts
 [semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-url]: https://github.com/semantic-release/semantic-release
-[license-image]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
+[license-image]: https://img.shields.io/npm/l/@shelex/cypress-wait-network
 [license-url]: https://opensource.org/licenses/MIT
 [version-image]: https://badgen.net/npm/v/@shelex/cypress-wait-network/latest
 [downloads-image]: https://badgen.net/npm/dt/@shelex/cypress-wait-network

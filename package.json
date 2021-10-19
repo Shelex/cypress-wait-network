@@ -22,7 +22,7 @@
         "network"
     ],
     "scripts": {
-        "lint": "yarn eslint ."
+        "lint": "npx eslint ."
     },
     "devDependencies": {
         "cypress": "6.5.0",
