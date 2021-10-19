@@ -10,7 +10,7 @@ node_modules
 .vscode
 .github
 .eslintrc.json
-.prettierrc.json
+.prettierrc.js
 tsconfig.json
 .gitignore
 CODE_OF_CONDUCT.md
