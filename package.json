@@ -1,0 +1,37 @@
+{
+    "name": "@shelex/cypress-wait-network",
+    "version": "0.0.0-development",
+    "description": "command for cypress to wait for network requests",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "license": "MIT",
+    "author": {
+        "name": "Oleksandr Shevtsov",
+        "email": "ovr.shevtsov@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Shelex/cypress-wait-network.git"
+    },
+    "bugs": "https://github.com/Shelex/cypress-wait-network/issues",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "keywords": [
+        "cypress",
+        "network"
+    ],
+    "scripts": {
+        "lint": "yarn eslint ."
+    },
+    "devDependencies": {
+        "cypress": "6.5.0",
+        "eslint": "7.32.0",
+        "eslint-config-prettier": "8.3.0",
+        "eslint-plugin-chai-friendly": "0.7.2",
+        "eslint-plugin-cypress": "2.12.1",
+        "eslint-plugin-prettier": "4.0.0",
+        "prettier": "2.4.1",
+        "semantic-release": "17.4.7"
+    }
+}

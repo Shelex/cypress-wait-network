@@ -1,0 +1,27 @@
+name: build
+on:
+    push:
+        branches:
+            - master
+jobs:
+    build-and-test:
+        runs-on: ubuntu-latest
+        name: Publish
+        steps:
+            - uses: actions/checkout@v1
+
+            - name: Eslint and Prettify
+              run: npm run lint
+
+            # https://github.com/cycjimmy/semantic-release-action
+            - name: Semantic Release
+              uses: cycjimmy/semantic-release-action@v2
+              id: semantic
+              with:
+                  branch: master
+                  extra_plugins: |
+                      @semantic-release/git
+                      @semantic-release/changelog
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
