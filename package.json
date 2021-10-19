@@ -5,6 +5,7 @@
     "main": "index.js",
     "types": "index.d.ts",
     "license": "MIT",
+    "private": false,
     "author": {
         "name": "Oleksandr Shevtsov",
         "email": "ovr.shevtsov@gmail.com"
