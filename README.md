@@ -99,7 +99,7 @@ This options could be passed:
 
 ## Credits
 
-Inspired by Gleb Bahmutov <gleb.bahmutov@gmail.com> who made [cypress-network-idle](https://github.com/bahmutov/cypress-network-idle) plugin that has same purpose, but just for specific requests matching.
+Inspired by Gleb Bahmutov <gleb.bahmutov@gmail.com> who made [cypress-network-idle](https://github.com/bahmutov/cypress-network-idle) plugin that has same purpose. Moreover command `cy.waitForNetworkIdle(2000)` from `cypress-network-idle` is quite same as `cy.waitForNetwork(2000)` from this package, first is based on interception and counters, this package just checks requests and responses from `cy.state`
 
 ## License
 
