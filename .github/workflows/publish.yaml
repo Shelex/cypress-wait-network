@@ -11,7 +11,9 @@ jobs:
             - uses: actions/checkout@v1
 
             - name: Eslint and Prettify
-              run: npm run lint
+              run: |
+                  npm install
+                  npm run lint
 
             # https://github.com/cycjimmy/semantic-release-action
             - name: Semantic Release
