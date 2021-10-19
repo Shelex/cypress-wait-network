@@ -5,18 +5,7 @@
         "ecmaVersion": 2018
     },
     "rules": {
-        "prettier/prettier": [
-            "error",
-            {
-                "singleQuote": true,
-                "trailingComma": "none",
-                "arrowParens": "always",
-                "printWidth": 80,
-                "tabWidth": 4,
-                "semi": true,
-                "bracketSpacing": true
-            }
-        ],
+        "prettier/prettier": "error",
         "newline-per-chained-call": "off",
         "prefer-template": "error",
         "arrow-body-style": "off",
