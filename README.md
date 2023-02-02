@@ -2,6 +2,16 @@
 
 [![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
 
+# Deprecation notice
+
+> Users have reported that in recent Cypress versions (v12+) requests are not being tracked.    
+> I can confirm that is happening due to internal changes in Cypress behavior and some functionality that this plugin relies on was removed.  
+> Thus I see no reason in re-developing it.  
+> In case you consider migrating to Cypress v12+ please replace this plugin with [cypress-network-idle](https://github.com/bahmutov/cypress-network-idle) which utilizes intercept functionality instead of internals and should work fine and cover your use case.   
+
+
+# Documentation
+
 > Plugin that adds `cy.waitForNetwork` command that ensures background network requests are finished
 > You can also enable automatic waiting before every cy.get by setting env var `waitForRequestsBeforeCyGet`
 
@@ -105,7 +115,7 @@ Inspired by Gleb Bahmutov <gleb.bahmutov@gmail.com> who made [cypress-network-id
 
 ## License
 
-Copyright 2021 Oleksandr Shevtsov <ovr.shevtsov@gmail.com>.  
+Copyright 2021-2023 Oleksandr Shevtsov <ovr.shevtsov@gmail.com>.  
 This project is licensed under the MIT License.
 
 [npm-url]: https://npmjs.com/package/@shelex/cypress-wait-network
